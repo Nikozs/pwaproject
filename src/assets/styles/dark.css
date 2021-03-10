@@ -27,7 +27,7 @@
 
 .dark-theme .grid-item,
 .dark-theme .tiedote-grid-item {
-  box-shadow: 0px 0px 20px #615f5f; /* test */
+  box-shadow: 0px 0px 20px #615f5f;
   background-color: #262626;
   border-color: #615f5f;
 }
@@ -42,7 +42,7 @@
   fill: #fff;
 }
 
-.dark-theme .grid-item#restaurantData h4 {
+.dark-theme .grid-item#restaurantData h4, .grid-item#restaurantData h3 {
   color: #e5e6e8;
 }
 
