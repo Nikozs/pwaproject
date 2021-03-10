@@ -149,7 +149,7 @@ const switchLanguage = async () => {
     updateSettings();
   }
   await loadAllMenuData();
-  lokalisoiUI();
+  localizeUI();
 
   if(valittu != "") {
     showSelected(valittu);
@@ -360,6 +360,7 @@ const loadAllMenuData = async () => {
 
 let hsldataa = [];
 /**
+ * Loads nearby stops from given longitude and latitude
  * @param {string} campus
  * @param {number} latitude
  * @param {number} longitude
@@ -379,7 +380,7 @@ const loadHSLData = async (campus, latitude, longitude) => {
 /**
  * Renders page in selected locale
  */
-const lokalisoiUI = () => {
+const localizeUI = () => {
   let etusivutxt = document.querySelector("#etusivu");
   etusivutxt.innerHTML = getLocalText("Etusivu");
   let switchLanguagetxt = document.querySelector("#language");
@@ -410,7 +411,7 @@ const getThemeFromStorage = () => {
 const init = async () => {
   checkIfuserConfigExists();
   getThemeFromStorage();
-  lokalisoiUI();
+  localizeUI();
   await loadAllMenuData();
 
   /**
