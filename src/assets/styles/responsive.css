@@ -1,0 +1,77 @@
+@media only screen and (max-width: 1250px) {
+  .grid-container {
+    grid-template-columns: 96%;
+    margin-bottom: 2%;
+  }
+
+  .campusImg {
+    width: 115px !important;
+    height: 120px !important;
+  }
+
+  .grid-item.campus-item {
+    width: 85%;
+  }
+
+  .grid-item {
+    margin: auto;
+  }
+
+  .wrapper {
+    width: 90%;
+  }
+
+  #leipateksti {
+      font-size: 20px;
+  }
+
+  .tiedote-grid-container {
+    margin-bottom: 7%;
+  }
+  .wrapper {
+    margin-bottom: 15%;
+  }
+
+}
+
+@media only screen and (max-width: 710px) {
+#leipateksti {
+  font-size: 16px;
+}
+
+.tiedote-grid-container {
+  margin-bottom: 11%
+}
+
+.grid-item {
+  font-size: 25px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+nav {
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+nav > ul {
+  flex-direction: column;
+}
+
+nav > li {
+  flex-basis: 50%;
+}
+
+.grid-container {
+  margin: 0%;
+}
+}
+
+@media only screen and (max-width: 400px) {
+nav > li {
+  flex-basis: 100%;
+}
+.search-data {
+  order: 1;
+}
+}

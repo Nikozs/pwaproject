@@ -1,0 +1,64 @@
+/* CSS for Dark theme */
+
+.dark-theme .tiedote-grid-container h2 {
+  color: white;
+}
+
+.dark-theme {
+  background-color: #000000;
+}
+
+.dark-theme nav {
+  background-color: #040404;
+}
+
+.dark-theme nav form {
+  color: #040404;
+}
+
+.dark-theme nav a {
+  color: #ffffff;
+}
+
+.dark-theme #campusHeader {
+  color: #fafafa;
+  min-width: 350px;
+}
+
+.dark-theme .grid-item,
+.dark-theme .tiedote-grid-item {
+  box-shadow: 0px 0px 20px #615f5f; /* test */
+  background-color: #262626;
+  border-color: #615f5f;
+}
+
+.dark-theme .grid-item img {
+  border-color: #ffffff;
+}
+
+.dark-theme h5,
+.dark-theme .restaurant {
+  color: #fff;
+  fill: #fff;
+}
+
+.dark-theme .grid-item#restaurantData h4 {
+  color: #e5e6e8;
+}
+
+.dark-theme .grid-item#restaurantData section ul {
+  color: #e5e6e8;
+}
+
+.dark-theme #tiedote {
+  color: #e5e6e8;
+}
+
+.dark-theme .hslList, .dark-theme section {
+  color: white;
+}
+
+.dark-theme .leaflet-tile-pane {
+  filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3)
+    brightness(0.7);
+}

@@ -1,0 +1,144 @@
+{
+  "data": [
+    {
+      "lang": "fi",
+      "text": "CAMPUS",
+      "localtext": "kampus"
+    },
+    {
+      "lang": "en",
+      "text": "CAMPUS",
+      "localtext": "Campus"
+    },
+    {
+      "lang": "fi",
+      "text": "Ruokailu",
+      "localtext": "Ruokailu"
+    },
+    {
+      "lang": "en",
+      "text": "Ruokailu",
+      "localtext": "Dinner"
+    },
+    {
+      "lang": "fi",
+      "text": "Etusivu",
+      "localtext": "Etusivu"
+    },
+    {
+      "lang": "en",
+      "text": "Etusivu",
+      "localtext": "Home"
+    },
+    {
+      "lang": "fi",
+      "text": "switchLanguage",
+      "localtext": "Vaihda kieli"
+    },
+    {
+      "lang": "en",
+      "text": "switchLanguage",
+      "localtext": "Switch Language"
+    },
+    {
+      "lang": "fi",
+      "text": "toggleTheme",
+      "localtext": "Vaihda teema"
+    },
+    {
+      "lang": "en",
+      "text": "toggleTheme",
+      "localtext": "Switch Theme"
+    },
+    {
+      "lang": "fi",
+      "text": "Hinta",
+      "localtext": "Hinta"
+    },
+    {
+      "lang": "en",
+      "text": "Hinta",
+      "localtext": "Price"
+    },
+    {
+      "lang": "fi",
+      "text": "Tiedote",
+      "localtext": "Tiedote"
+    },
+    {
+      "lang": "en",
+      "text": "Tiedote",
+      "localtext": "Announcement"
+    },
+    {
+      "lang": "fi",
+      "text": "Kampukset:",
+      "localtext": "Kampukset:"
+    },
+    {
+      "lang": "en",
+      "text": "Kampukset:",
+      "localtext": "Campuses:"
+    },
+    {
+      "lang": "fi",
+      "text": "Lähimmät pysäkit",
+      "localtext": "Lähimmät pysäkit"
+    },
+    {
+      "lang": "en",
+      "text": "Lähimmät pysäkit",
+      "localtext": "Nearest Stops"
+    },
+    {
+      "lang": "fi",
+      "text": "Etäisyys",
+      "localtext": "Etäisyys: "
+    },
+    {
+      "lang": "en",
+      "text": "Etäisyys",
+      "localtext": "Distance: "
+    },
+    {
+      "lang": "fi",
+      "text": "Arabian kampus",
+      "localtext": "Arabian kampus"
+    },
+    {
+      "lang": "en",
+      "text": "Arabian kampus",
+      "localtext": "Arabia Campus"
+    },
+    {
+      "lang": "fi",
+      "text": "Karamalmin kampus",
+      "localtext": "Karamalmin kampus"
+    },
+    {
+      "lang": "en",
+      "text": "Karamalmin kampus",
+      "localtext": "Karamalmi Campus"
+    },
+    {
+      "lang": "fi",
+      "text": "Myllypuron kampus",
+      "localtext": "Myllypuron kampus"
+    },
+    {
+      "lang": "en",
+      "text": "Myllypuron kampus",
+      "localtext": "Myllypuro Campus"
+    },
+    {
+      "lang": "fi",
+      "text": "Myyrmäen kampus",
+      "localtext": "Myyrmäen kampus"
+    },
+    {
+      "lang": "en",
+      "text": "Myyrmäen kampus",
+      "localtext": "Myyrmäki Campus"
+    }
+  ]
+}
