@@ -92,7 +92,7 @@ const campuses = [
  * @returns text in currently selected language
  */
 const getLocalText = (text) => {
-  var textitem = Localization.data.find(
+  let textitem = Localization.data.find(
     (x) => x.lang == userSettings.currentLang && x.text == text
   );
   return textitem.localtext;
