@@ -42,7 +42,7 @@
   fill: #fff;
 }
 
-.dark-theme .grid-item#restaurantData h4, .grid-item#restaurantData h3 {
+.dark-theme .grid-item#restaurantData h4, .dark-theme .grid-item#restaurantData h3 {
   color: #e5e6e8;
 }
 

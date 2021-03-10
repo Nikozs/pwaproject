@@ -208,8 +208,9 @@ const showSelected = async (ev) => {
   camp.restaurants.forEach(async (restaurant) => {
     if (restaurant.parsedMenu.length == 0) {
       await loadAllMenuData();
-      // This makes sure parsed menu is loaded if user selects campus faster than fetch finishes
+      // Just to make sure parsed menu is loaded if user selects campus faster than fetch finishes
     }
+
 
     let restaurantContainer = document.createElement("div");
     restaurantContainer.className = "grid-container";
@@ -425,16 +426,12 @@ const init = async () => {
    * Apply listener for navbar items
    */
   document.querySelector("#etusivu").addEventListener("click", (e) => {
+
     e.preventDefault();
     valittu = "";
     const gridContainer = document.querySelector(".grid-container");
     const wrapperi = document.querySelector(".wrapper");
-    const restaurantsGrid = document.querySelector(
-      ".restaurant-container > .grid-container"
-    );
-    const tiedote = document.querySelector(".tiedote-grid-container");
     const campusHeader = document.querySelector("#campusHeader > h1");
-
     campusHeader.innerHTML = getLocalText("Kampukset:");
 
     /**

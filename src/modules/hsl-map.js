@@ -4,7 +4,7 @@
  * @param {number} longitude
  */
 const renderMap = (latitude, longitude) => {
-var map = L.map("map").setView([latitude, longitude], 16);
+var map = L.map("map").setView([latitude, longitude], 15);
 
 L.tileLayer('https://cdn.digitransit.fi/map/v1/{id}/{z}/{x}/{y}.png', {
   attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
