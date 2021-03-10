@@ -106,7 +106,6 @@ let defval = localStorage.getItem("userConfig");
  */
 const checkIfuserConfigExists = () => {
   if (!defval) {
-    // Checks if userConfig already exists
     localStorage.setItem("userConfig", JSON.stringify(userSettings)); // if not then create it
   } else {
     userSettings = JSON.parse(localStorage.getItem("userConfig")); // if it already exists then use existing one

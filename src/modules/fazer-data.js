@@ -28,8 +28,8 @@ const parseDailyMenu = (menuData, dayOfWeek) => {
     });
   } else {
     dailyMenu.push({
-      title: "Ei dataa saatavilla",
-      diets: "",
+      title: "",
+      diets: "No data available",
       price: "",
     });
   }
@@ -44,7 +44,7 @@ const parseDailyMenu = (menuData, dayOfWeek) => {
  * @param {string} date in ISO format (YYYY-MM-DD)
  * @return {Promise<string>} Daily menu data
  */
-const getDailyMenu = async (lang, date) => {
+const getDailyMenu = async (restaurantId, lang, date) => {
   let dayOfWeek = new Date().getDay();
 
   dayOfWeek -= 1;
